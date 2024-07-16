@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById('verifyBtn').addEventListener('click', () => {
         const otp = Array.from(otpInputs).map(input => input.value).join('');
         verifyOTP(otp);
+        
     });
 
     function verifyOTP(otp) {
